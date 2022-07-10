@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+ font-size: 20px;
+ font-family: 'Roboto Mono', monospace;
+ background-image: url('https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202011/MIT-Tiny-AI-01_0.jpg?itok=chf7f8K1');
+ background-repeat: repeat;
+ 
+ 
+}
+
+.container {
+
+ width: 70%;
+ height: 550px;
+ margin: 0 auto;
+ margin-top: 60px;
+ display: flex;
+ flex-direction: column;
+ border-radius: 5px;
+ background: linear-gradient(purple, red, purple);
+ opacity: 0.8;
+ box-shadow: 1px 2px 2px 2px;
+ 
+
+}
+
+h1 {
+    
+    margin: 10px;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+input {
+margin: 10px;
+padding: 10px;
+border-radius: 10px;
+background-color: wheat;
+outline: none;
+font-size: 20px;
+border-right: none;
+border-left: none;
+border-top: 2px dashed black;
+border-bottom: 2px dashed black;
+transition-property: border left;
+transition-duration: 10s;
+
+
+}
+
+input:hover {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 2px dashed whitesmoke;
+border-bottom: 2px dashed whitesmoke;
+}
+
+button {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: wheat;
+    border: 1px solid;
+    font-weight: bold;
+
+}
+
+button:hover  {
+    border: 3px solid gold;
+    transition: border-width 0.5s linear;
+    background-color: red;
+
+}
+
+
+ul {
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    
+}
+
+ul li {
+    margin-left: 30px;
+    color: wheat;
+    list-style-type: circle;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        height: 1400px;
+        margin-top: 0;
+        
+        }
+
+   h1, label, input, ul  {
+    margin-left: 35px;
+    margin-top: 50px;
+
+  }
+}
+
+button{
+    font-size: 20px;
+    margin-left: 60px;
+}
+ul li {
+    font-size: 20px;
+}
+
+input {
+    margin-top: 10px;
+}
+
+@media (max-width: 475px) {
+    ul {
+        grid-template-columns: auto;
+    }
+}
