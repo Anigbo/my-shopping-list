@@ -23,5 +23,9 @@ deleteButton.addEventListener("click", function() {
 
 })
 input = document.querySelector("input").focus()
+ 
+ if(addInput === "") {
+   listItems.remove()
+  }
 }
 
