@@ -26,13 +26,13 @@ body {
  border-radius: 5px;
  background: linear-gradient(purple, red, purple);
  opacity: 0.8;
- box-shadow: 1px 2px 2px 2px;
- 
+ box-shadow: 1px 2px 2px 2px aqua;
+ overflow: auto;
 
 }
 
 h1 {
-    
+    color: whitesmoke;
     margin: 10px;
     padding: 5px;
 }
@@ -42,7 +42,7 @@ label {
     font-weight: bold;
     margin: 10px;
     padding: 5px;
-
+    color: whitesmoke;
 }
 
 input {
@@ -52,12 +52,14 @@ border-radius: 10px;
 background-color: wheat;
 outline: none;
 font-size: 20px;
+font-weight: bold;
 border-right: none;
 border-left: none;
 border-top: 2px dashed black;
 border-bottom: 2px dashed black;
 transition-property: border left;
-transition-duration: 10s;
+transition-duration: 5s;
+box-shadow: 1px 2px 2px 2px rgb(113, 146, 146);
 
 
 }
@@ -69,6 +71,7 @@ input:hover {
     font-family: 'Roboto', sans-serif;
     border-top: 2px dashed whitesmoke;
 border-bottom: 2px dashed whitesmoke;
+box-shadow: 1px 2px 2px 2px wheat;
 }
 
 button {
@@ -90,6 +93,7 @@ button:hover  {
     border: 3px solid gold;
     transition: border-width 0.5s linear;
     background-color: red;
+    border-radius: 50px;
 
 }
 
