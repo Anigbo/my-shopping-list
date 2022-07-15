@@ -1,7 +1,7 @@
 const list = document.querySelector("ul").value
 const input = document.querySelector("input").value
 const button = document.querySelector("button").value
-let link = document.querySelector("a").value
+
 
 function  myFunction() {
 const addInput = document.querySelector("input").value
